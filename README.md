@@ -8,6 +8,7 @@ git rev-parse --short HEAD
 
 15:30
  sudo usermod -a -G docker jenkins
+
   sudo service jenkins restart
   sudo chkconfig docker on
   sudo service docker status
